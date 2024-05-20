@@ -5,7 +5,7 @@ import { poppins } from "./assets/fonts";
 const Nav = () => {
   const Links = ["Home", "Features", "Pricing", "FAQs"];
   return (
-    <div className={poppins.className}>
+    <div className={`${poppins.className} py-7`}>
       <div className="w-[1019px] h-[85px]  mx-auto   rounded-full bg-[#7BC6C654] flex items-center justify-between p-6 border border-[#4A7878]">
         <div>
           <Image src={Logo} width={108} height={108} alt="logo" />

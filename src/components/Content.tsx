@@ -3,7 +3,7 @@ import Image from "next/image";
 import play from "./assets/play-stroke.png";
 const Content = () => {
   return (
-    <div className="basis-[60%] p-10">
+    <div className="w-1/2 p-10 z-10">
       <div className={handlee.className}>
         {" "}
         <h1 className="text-[95px] text-[#305454] leading-[133px] mt-2 w-[862px] h-[266px] ml-[102px]">
